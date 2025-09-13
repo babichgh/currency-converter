@@ -19,6 +19,6 @@ int main() {
     std::cin >> sum;
 
     if (currency1 == "RUB") {
-        std::cout << sum << " RUB = " << RUB["USD"] * sum << std::endl;
+        std::cout << sum << " RUB = " << RUB[currency2] * sum << std::endl;
     }
 }
